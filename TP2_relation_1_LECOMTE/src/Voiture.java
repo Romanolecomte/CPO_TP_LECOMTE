@@ -9,11 +9,11 @@
  */
 public class Voiture {
     String Modele;
-    String Marque;
+    String Marque;  // creation des variables
     int PuissanceCV;
     Personne Proprietaire;
     
-    public Voiture (String modele, String marque, int puissanceCV ){
+    public Voiture (String modele, String marque, int puissanceCV ){ 
         Modele = modele;
         Marque = marque;
         PuissanceCV = puissanceCV;
